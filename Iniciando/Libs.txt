@@ -1,0 +1,20 @@
+# Lombok ajuda criar construtores get e setters
+
+pam.xml => Depedencia
+<dependency>
+<groupId>org.projectlombok</groupId>
+<artifactId>lombok</artifactId>
+<version>1.18.30</version>
+<scope>provided</scope>
+</dependency>
+
+# Banco De Dados H2 Database Engine
+spring.datasource.url=jdbc:h2:mem:todolist
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=admin
+spring.datasource.password=admin
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+
+ACESSA O BANCO 
+http://localhost:8080/h2-console/login.jsp?jsessionid=fd152ab829fe9100a936aea339320cf2
